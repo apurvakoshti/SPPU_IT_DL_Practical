@@ -1,0 +1,13 @@
+Assignment 1: Study of Deep learning packages
+
+Deep Learning:
+Deep learning is a subset of machine learning. It uses artificial neural network architectures to find the hidden patterns and relationships in the dataset. It requires larger volume of dataset for training. Deep learning algorithms are complex and non-linear. It also requires high performance computers with GPU or TPU. It is inspired by the structure and function of human brain, so deep learning networks are also called as deep neural networks. Deep learning models are highly effective in image and speech recognition. natural language processing, autonomous driving. The popular framework for developing the deep learning models are TensorFlow, Keras and PyTorch.
+
+Deep learning packages:
+1.TensorFlow: TensorFlow is an open-source deep learning framework developed by Google, used to build and train complex neural networks with strong support for deployment on various platforms.
+
+2.Keras: Keras is a high-level deep learning library built on top of TensorFlow, designed to simplify the process of building and training models with an easy-to-use interface.
+
+3.PyTorch: Developed by Facebook, PyTorch is an open-source deep learning framework that is popular for its flexibility and ease of use, especially for research and experimentation.
+
+4.Theano: Theano is an older deep learning library that enables efficient mathematical computations, mainly for developing and training models, and was foundational for libraries like Keras.

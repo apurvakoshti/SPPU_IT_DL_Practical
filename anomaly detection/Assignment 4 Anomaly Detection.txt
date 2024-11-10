@@ -1,0 +1,6 @@
+Assignment 4 Anomaly Detection
+
+Anomaly detection is the process of identifying rare or unusual patterns in data that do not conform to expected behavior. It is commonly used to detect outliers or anomalies in datasets, such as fraud detection, network security breaches, or equipment failure predictions.
+
+
+An autoencoder is a type of neural network used for unsupervised learning, primarily for data compression and feature learning. It consists of two parts: an encoder that compresses the input data into a lower-dimensional representation (latent space) and a decoder that reconstructs the original data from this representation. Autoencoders are used for tasks like anomaly detection, denoising, and dimensionality reduction.

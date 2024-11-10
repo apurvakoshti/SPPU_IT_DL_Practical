@@ -1,0 +1,20 @@
+Assignment 3 Image Classification model
+
+Image Classification
+-Image classification is the task of identifying the category or class of an object within an image, like distinguishing between cats and dogs.
+-It uses neural networks to learn patterns and features from labeled images, allowing the model to predict for new, unseen images.
+-Common applications include facial recognition, object detection, medical image analysis, etc
+
+
+CNN
+A Convolutional Neural Network (CNN) is a deep learning model used primarily for processing grid-like data such as images. It uses convolutional layers to automatically extract features from input images, followed by pooling layers to reduce dimensionality, and fully connected layers for classification or regression tasks. CNNs are highly effective in image recognition and computer vision.
+
+Convolutional Operation: It is a mathematical operation where a filter (kernel) slides over the input data (like an image) to extract features by computing dot products between the filter and local regions of the input.
+
+Convolution Kernel: A small matrix of weights that is applied to the input data during the convolutional operation to detect specific features like edges, textures, or patterns in the image.
+
+Convolutional Layer: Extracts features from the input image by applying convolutional filters.
+Pooling Layer: Reduces the spatial dimensions (height and width) of the input, typically using max pooling or average pooling.
+Fully Connected Layer: Typically used for final classification or regression tasks.
+Dropout Layer: Randomly disables a fraction of neurons during training to prevent overfitting.
+Activation Layer: Applies non-linear functions (like ReLU) to introduce non-linearity, allowing the network to learn complex patterns

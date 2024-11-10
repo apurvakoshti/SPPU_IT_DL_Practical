@@ -1,0 +1,19 @@
+Assignment 5 CBOW
+
+Natural Language Processing (NLP) is a field of artificial intelligence that focuses on enabling computers to understand, interpret, and generate human language. It involves tasks like text classification, sentiment analysis, translation, and speech recognition to make human-computer interaction more natural.
+
+
+Word Embedding is a technique in NLP that converts words into numerical vectors, capturing semantic relationships between them. It represents words in a continuous vector space, where similar words have similar vector representations, enabling better understanding of word meanings and contexts in machine learning tasks.
+
+
+Word2Vec is a popular word embedding technique that converts words into vector representations using neural networks. It has two main models:
+Continuous Bag of Words (CBOW): Predicts a target word based on its surrounding context words.
+Skip-Gram: Predicts the context words based on a given target word.
+
+
+The Continuous Bag of Words (CBOW) architecture in Word2Vec predicts a target word based on its surrounding context words. It takes a fixed-size window of context words as input and uses them to predict the center (target) word. 
+Input of CBOW: A set of context words (surrounding words) from a fixed-size window around a target word.
+Output of CBOW: The target word (the word in the center of the context window) predicted from the context words.
+
+
+An epoch is one complete pass through the entire training dataset during the training process of a machine learning model. It is required to allow the model to learn and adjust its parameters (like weights) to minimize the error.

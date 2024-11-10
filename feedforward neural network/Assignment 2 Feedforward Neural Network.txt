@@ -1,0 +1,42 @@
+Assignment 2 Feedforward Neural Network
+
+
+Deep Learning:
+Deep learning is a subset of machine learning. It uses artificial neural network architectures to find the hidden patterns and relationships in the dataset. It requires larger volume of dataset for training. Deep learning algorithms are complex and non-linear. It also requires high performance computers with GPU or TPU. It is inspired by the structure and function of human brain, so deep learning networks are also called as deep neural networks. Deep learning models are highly effective in image and speech recognition. natural language processing, autonomous driving. The popular framework for developing the deep learning models are TensorFlow, Keras and PyTorch.
+
+
+Feedforward Neural Network:
+-Feedforward neural network is a type of artificial neural network where the connection between nodes does not form any loop.The information flows in only one direction from input to output. The feedforward neural network consists of input layer, one or more hidden layer and output layer. Feedforward neural network is mostly used for finding patterns from data.
+-Feedforward Diagram
+          +---------------+
+          |  Input Layer  |
+          +---------------+
+                  |
+                  |  (weights and biases)
+                  v
+          +---------------+
+          |  Hidden Layer  |
+          |  (optional)    |
+          +---------------+
+                  |
+                  |  (activation functions)
+                  v
+          +---------------+
+          |  Output Layer  |
+          +---------------+
+
+
+
+Components of feedforward neural network:
+1.Input Layer: The first layer that receives raw data and passes it to a network.
+2.Hidden layer: The intermediate layer between the input and output layer, where the neurons performs the weighted sum of inputs, add biases, apply activation function to introduce non-linearity. The number of hidden layer can vary.
+3.Output layer: The final layer that produces the networks prediction or classification.
+4.Activation function: An activation function is a mathematical formula what tells neurons what to do with the input it receives. It acts like a gatekeeper that decides whether the neuron should be activated or not. The activation function is used to introduce non-linearity in the network to  make it more powerful. The activation functions used are relu, sigmoid and tanh. Without non-linearity, the neural network acts as a linear regression model.
+5. Bias: It is a constant value that it added to the output of neuron in neural network. Biases are often initialised to zero, but it can adjusted during the training. The bias is added to the weighted sum of inputs before applying activation function. Bias adjust the output of neuron by shifting  the activation to left or right.
+
+Datasets:
+MNIST Dataset: The MNIST dataset is a collection of 70,000 grayscale images of handwritten digits (0-9), each 28x28 pixels with 60,000 images for training and 10,000 images for testing.
+CIFAR-10 Dataset: Is a dataset of 60,000 color images across 10 classes each 32x32 pixels, with 50,000 images for training and 10,000 images for testing.
+
+
+
